@@ -1,0 +1,119 @@
+/* User Detail Page Container */
+.user-detail-page {
+    display: flex;
+    align-items: center;
+    padding: 3%;
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    flex-direction: row;
+}
+
+/* Sections Container */
+.sections-container {
+    display: flex;
+    justify-content: space-between; /* Adjust based on your layout */
+    gap: 20px; /* Space between sections */
+}
+
+/* User Details */
+.user-details {
+    flex: 1;
+    background-color: #bda9be7e; /* Light pink background with transparency */
+    padding: 20px;
+    border-radius: 16px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 9%;
+    margin-top: 9%;
+}
+
+/* Section Title */
+.user-detail-page h2 {
+    font-size: 24px;
+    margin-bottom: 15px;
+    color: #26292d; /* Dark text color */
+}
+
+/* Book List Container */
+.book-list-container {
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+    padding-top: 8%;
+    border-radius: 16px;
+    /* Space between lists */
+}
+
+/* Book List */
+.book-list {
+    list-style-type: none;
+    padding-top: 0%;
+}
+
+.book-list-item {
+    background-color: #EBCEBE; /* Light pink background */
+    border-radius: 16px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    margin-bottom: 2%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #26292d; /* Dark text color */
+}
+
+/* Available Book Color */
+.book-list-item.available {
+    color: #F19361; /* Set available book color */
+}
+
+.book-list-item button {
+    background-color: #d99395; /* Light pink button background */
+    color: #ffffff;
+    border: none;
+    border-radius: 8px;
+    padding: 5px 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.book-list-item button:hover {
+    background-color: #3d5456; /* Darker pink on hover */
+}
+
+.book-list-item button:disabled {
+    background-color: #d3d3d3; /* Gray background for disabled state */
+    cursor: not-allowed;
+}
+
+/* Pagination Controls */
+.pagination {
+    display: flex;
+    justify-content: center;
+    gap: 10px; /* Space between controls */
+    margin-top: 20px;
+}
+
+.pagination button {
+    background-color: #d99395; /* Light pink button background */
+    color: #ffffff;
+    border: none;
+    border-radius: 8px;
+    padding: 5px 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.pagination button:hover {
+    background-color: #3d5456; /* Darker pink on hover */
+}
+
+.pagination button:disabled {
+    background-color: #d3d3d3; /* Gray background for disabled state */
+    cursor: not-allowed;
+}
+
+.pagination span {
+    align-self: center;
+    color: #26292d; /* Dark text color */
+}
